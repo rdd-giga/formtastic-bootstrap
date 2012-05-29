@@ -159,7 +159,7 @@ module ActionView
       end
     end
 
-    include ActionView::Base.send :include, TextFieldDateHelper
+    ActionView::Base.send :include, TextFieldDateHelper
 
   end
 end
